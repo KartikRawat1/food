@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="player">
+    <div class="player-header">
+      <h1>Spotify Clone</h1>
+    </div>
+
+    <div class="player-body">
+      <div class="track-info">
+        <img src="https://via.placeholder.com/150" alt="Album Art" class="album-art">
+        <div>
+          <h2 class="track-title">Song Title</h2>
+          <p class="artist-name">Artist Name</p>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="prev-btn">Prev</button>
+        <button class="play-btn">Play</button>
+        <button class="next-btn">Next</button>
+      </div>
+
+      <div class="progress-bar">
+        <input type="range" class="progress" value="0" min="0" max="100">
+        <p class="time">0:00</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
